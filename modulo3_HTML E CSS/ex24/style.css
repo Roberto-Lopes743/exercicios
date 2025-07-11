@@ -1,5 +1,6 @@
 body{
     background: url('../img/wallpaper002.jpg') center center no-repeat fixed;
+    background-attachment: fixed;
     background-size: cover;
 }
 main{

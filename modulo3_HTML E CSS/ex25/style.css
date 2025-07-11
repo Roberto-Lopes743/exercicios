@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+}
+section#container {
+    height: 100vh;
+    display: relative;
+    background: #ce1111 url('../img/target001.png') no-repeat;
+    background-size: 100% 100%;
+}
+main {
+    height: 200px;
+    width: 400px;
+    background: #111ece url('../img/target001.png') no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
