@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@616&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@616&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+:root{
+    --verde: #3E5915;
+    --marrom-medio: #735A3C;
+    --marrom-claro: #A6855D;
+    --marrom-escuro: #403324;
+    --laranja: #D98859;
+}
+body{
+    background-color: rgba(69, 151, 14, 0.404);
+}
+*{
+    margin: 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+header{
+    background-image: radial-gradient(circle, var(--marrom-claro), var(--marrom-medio));
+    padding: 10px;
+    text-align: center;
+    color: var(--marrom-escuro);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.377);
+    margin-bottom: 5px;
+    border-radius: 0px 0px 13px 13px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--verde);
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+section{
+    margin-bottom: 60px;
+}
+section.image-section{
+display: relative;
+background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJQK0NiCliHT_I09Wmw5h2W1qT6znNb96eYDNcIqxLp1qDvGfFcLuSMeH2lukRlcLEcVYHy0FW7Cres2cFGpUTAy8JYaRFsMPgldJwRW9mn0b7xDiFSpEkKfRCpTr-j8VsGeuOFu-AeVva/s1600/michelangelo-adam.jpg');
+height: 400px;
+background-repeat: repeat-x;
+background-size:cover;
+background-position: center center;
+}
+section.image-section>p{
+    position: absolute;
+    top: 50%;
+    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.5);
+}
+p{
+    font-size: 25px;
+    font-family: 'winky rough', cursive;
+    color: var(--marrom-escuro);
+    margin-left: 40px;
+}
+footer{
+    background-color: var(--marrom-claro);
+    padding: 10px;
+    text-align: center;
+    color: var(--marrom-escuro);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.377);
+    margin-top: 5px;
+    border-radius: 13px 13px 0px 0px;
+    box-shadow: 3px -3px 10px rgba(0, 0, 0, 0.5);
+}
+a:hover{
+    color: var(--laranja);
+}
