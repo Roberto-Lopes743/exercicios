@@ -1,0 +1,25 @@
+body{
+    background-image:url('../img/wallpaper001.jpg');
+    background-repeat: repeat;
+}
+div.botao{
+    width: 300px;
+    height: 300px;
+    border-radius: 4px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    
+}
+div.botao:hover{
+    transform: scale(1.009);
+}
+#b3{
+    background-image:linear-gradient(to top, #ffd45f, #fe7b7b);
+}
+#b2{
+    background-image:url('../img/pattern003.png');
+}
+#b1{
+    background-color: blue;
+}
