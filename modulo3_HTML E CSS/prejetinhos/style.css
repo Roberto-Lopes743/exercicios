@@ -6,9 +6,18 @@
     --marrom-claro: #A6855D;
     --marrom-escuro: #403324;
     --laranja: #D98859;
+    --verde-marinho: #09e7b0;
 }
-body{
-    background-color: rgba(69, 151, 14, 0.404);
+body::before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url('https://img.freepik.com/fotos-gratis/fotografia-de-paisagem-com-fundo-de-textura-branca_181624-30815.jpg?semt=ais_hybrid&w=740') ;
+    z-index: -1;
+    opacity: 0.25;
 }
 *{
     margin: 0px;
@@ -28,27 +37,32 @@ a{
     text-decoration: none;
     font-weight: bold;
     color: var(--verde);
+    font-size: small;
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
 }
 section{
-    margin-bottom: 60px;
+    min-width: 400px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: medium;
+    white-space: nowrap;
 }
 section.image-section{
 display: relative;
 background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJQK0NiCliHT_I09Wmw5h2W1qT6znNb96eYDNcIqxLp1qDvGfFcLuSMeH2lukRlcLEcVYHy0FW7Cres2cFGpUTAy8JYaRFsMPgldJwRW9mn0b7xDiFSpEkKfRCpTr-j8VsGeuOFu-AeVva/s1600/michelangelo-adam.jpg');
-height: 400px;
+height: 40vh;
 background-repeat: repeat-x;
 background-size:cover;
 background-position: center center;
+background-attachment: fixed;
 }
 section.image-section>p{
     position: absolute;
     top: 50%;
     text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.5);
 }
-p{
+section>p{
     font-size: 25px;
-    font-family: 'winky rough', cursive;
     color: var(--marrom-escuro);
     margin-left: 40px;
 }
@@ -64,4 +78,11 @@ footer{
 }
 a:hover{
     color: var(--laranja);
+}
+footer>p{
+    font-size: small;
+}
+section.image-section>p{
+background-color: var(--verde-marinho);
+padding: 5px;
 }
