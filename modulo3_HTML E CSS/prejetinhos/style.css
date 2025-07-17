@@ -14,8 +14,8 @@ body::before{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-image:url('https://img.freepik.com/fotos-gratis/fotografia-de-paisagem-com-fundo-de-textura-branca_181624-30815.jpg?semt=ais_hybrid&w=740') ;
     z-index: -1;
     opacity: 0.25;
@@ -77,6 +77,8 @@ footer{
     margin-top: 5px;
     border-radius: 13px 13px 0px 0px;
     box-shadow: 3px -3px 10px rgba(0, 0, 0, 0.5);
+    display: block;
+    align-content: end;
 }
 a:hover{
     color: var(--laranja);
