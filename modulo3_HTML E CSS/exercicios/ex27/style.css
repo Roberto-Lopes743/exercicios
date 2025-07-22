@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    text-align: center;
+}
+td,th{
+    background-color: #f2f2f2;
+    padding: 24px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    border: 1px solid #000;
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+}
+td:hover {
+    background-color: #ddd;
+    vertical-align: top;
+}
+caption,tfoot{
+        background-color: #85f1ff;
+    padding: 24px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    border: 1px solid #000;
+}
+td.number {
+    text-align: right;
+}
