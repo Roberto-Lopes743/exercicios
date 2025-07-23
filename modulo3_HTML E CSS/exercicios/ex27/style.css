@@ -10,6 +10,7 @@ td,tr{
 }
 table{
     border-collapse: collapse;
+    position: relative;
     width: 500px;
     height: 400px;
     margin: auto;
@@ -40,4 +41,12 @@ caption {
     font-weight: bold;
     color: #2e2e2e;
     margin-bottom: 20px;
+}
+thead>tr>th {
+position: sticky;
+    top: 0;
+    background-color: #2e2e2e;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
 }
