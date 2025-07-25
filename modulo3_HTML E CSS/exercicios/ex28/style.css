@@ -3,6 +3,8 @@
     text-align: center;
 }
 td,tr{
+    text-transform: capitalize;
+    width: 150px;
     padding: 24px;
     text-align: center;
     border-bottom: 1px solid #ddd;
@@ -10,11 +12,10 @@ td,tr{
 }
 table{
     border-collapse: collapse;
-    position: relative;
-    width: 500px;
+    width: 800px;
     height: 400px;
     margin: auto;
-    margin-top: 30px;
+    margin-bottom: 30px;
 }
 td:hover {
     background-color: #ddd;
