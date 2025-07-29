@@ -1,0 +1,20 @@
+td,th{
+    padding: 24px;
+    border: solid 1px black;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    text-transform: capitalize;
+}
+th{
+    background-color: #2e2e2e;
+}
+col.nome {
+    background-color: aqua;
+}
+col.idade {
+    background-color: lightgreen;
+}
