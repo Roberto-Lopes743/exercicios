@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <h1>
         exercio 31 - HTML e CSS
@@ -15,8 +17,13 @@
         <li><a href="./pagextras/index2.html" target="tela">planilha 2</a></li>
         <li><a href="./pagextras/index3.html" target="tela">planilha 3</a></li>
     </ul>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, voluptatum, explicabo, officia quos animi mollitia velit delectus doloremque accusamus voluptas facere? Id, pariatur minus dignissimos sint blanditiis rerum hic repellat.</p>
-    <iframe srcdoc="<h1>clica em alguns do link acima ai<h1/>" frameborder="0" name="tela"></iframe>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eius rem veritatis asperiores ad quod saepe quo nisi sit, cupiditate nostrum laudantium alias mollitia, impedit aliquam maiores quos, animi unde.</p>
+    <p>devemos ter segurança quando usamos iframes pos não sabemos o que sites externos pode nos proporcionar</p>
+    <p>e e por isso que temos o sandbox e referrerpolicy</p>
+
+    <p>sandbox: é uma forma de restringir o que o iframe pode fazer, como executar scripts, enviar formulários, etc.</p>
+
+    <p>referrerpolicy:usamos para não enviar dados para outros  sites</p>
+    <iframe src="" frameborder="0" sandbox="sandbox" referrerpolicy="no-referrer"></iframe>
 </body>
+
 </html>
