@@ -11,12 +11,19 @@ main{
     height: 100vh;
     background-color: black;
 }
-section#celular{
-    display: absolute;
-    background-color: red;
-    width: 100px;
-    height: 100px;
+iframe{
+    width: 376px;
+    height: 780px;
+    position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%); /* Centraliza perfeitamente */
+    transform: translate(-50%, -50%);
+}
+section#celular{
+    width: 376px;
+    height: 780px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
