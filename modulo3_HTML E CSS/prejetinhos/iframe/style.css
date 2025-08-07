@@ -5,25 +5,58 @@
 body{
     height: 100vh;
     width: 100vw; 
+    background-image: linear-gradient(45deg, #889e56, #6e833c, #3a4917);
 }
 main{
     display: relative;
     height: 100vh;
-    background-color: black;
 }
 iframe{
-    width: 376px;
-    height: 780px;
+    width: 320px;
+    height: 724px;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 49%;
+    border-radius: 35px;
     transform: translate(-50%, -50%);
+    border: 0px solid transparent;
 }
 section#celular{
-    width: 376px;
+    width: 370px;
     height: 780px;
     position: absolute;
     left: 50%;
     top: 50%;
+    background-image: url('celular.png');
     transform: translate(-50%, -50%);
+}
+i{
+    position: absolute;
+    color: white;
+    font-size: 4em;
+    top: 50%;
+    left: 90%;
+    transition: all 100ms ease-in-out;
+}
+section#icones{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+i#youtube{
+    position: absolute;
+    color: white;
+    font-size: 4em;
+    top: 40%;
+    left: 90%;
+}
+i#home{
+    position: absolute;
+    color: white;
+    font-size: 4em;
+    top: 30%;
+    left: 90%;
+}
+i:hover, i#home:hover, i#youtube:hover{
+    color: red;
 }
