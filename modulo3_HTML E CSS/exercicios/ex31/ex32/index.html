@@ -7,9 +7,12 @@
 </head>
 <body>
     <form action="cadastro.php" method="post" autocomplete="off">
-        <p><label for="iname">nome</label><input type="text" name="name" id="iname"></p>
-        <p><label for="iimail">E-mail </label><input type="email" name="imail"id="iimail"></p>
-        <p><label for="ipassword">senha</label> <input type="password" name="password" id="ipassword"></p>
+        <p><label for="iname">nome</label>
+            <input type="text" name="name" id="iname" required></p>
+        <p><label for="iimail">E-mail </label>
+            <input type="email" name="imail"id="iimail" required></p>
+        <p><label for="ipassword">senha</label> 
+            <input type="password" name="password" id="ipassword" required></p>
         <input type="submit" value="enviar">
     </form>
 </body>
