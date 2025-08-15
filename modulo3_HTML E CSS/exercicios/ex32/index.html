@@ -20,8 +20,38 @@
     <form action="">
         <fieldset>
             <legend>sex</legend>
-            <p><input type="radio" name="sex" id="imas"><label for="imas">masculino</label></p>
+            <p><input type="radio" name="sex" id="imas" checked><label for="imas">masculino</label></p>
             <p><input type="radio" name="sex" id="ifem"><label for="ifem">feminino</label></p>
+        </fieldset>
+    </form>
+    <form action="">
+        <fieldset>
+            <legend>avaliação</legend>
+            <p>nota<input type="range" name="" id=""  max="5" min="1" value="4"></p>
+            <p>cor <input type="color" name="" id=""></p>
+            <p>arquibo <input type="file"></p>
+            <input type="submit" value="enviar">
+        </fieldset>
+    </form>
+    <form action="">
+        <select name="grupo" id="igrupo">
+            <option value="TI"></option>
+            <option value="administrador">administrador</option>
+            <option value="engenheiro">engenheiro</option>
+            <option value="professor">professor</option>
+            <option value="outro">outro</option>
+        </select>
+    </form>
+    <form action="">
+        <fieldset>
+            <legend>pesquisa</legend>
+            <p><input type="search" name="pesquisa" id="ipesquisa" placeholder="pesquisar..." list="datalist"></p>
+            <datalist id="datalist">
+                <option value="bolo de cenoura">bolo de cenoura</option>
+                <option value="bolo de chocolate">bolo de chocolate</option>
+                <option value="bolo de laranja">bolo de laranja</option>
+            </datalist>
+            <p><input type="submit" value="pesquisar"></p>
         </fieldset>
     </form>
 </body>
