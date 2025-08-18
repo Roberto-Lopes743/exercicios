@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+background-color: white;
+}
+header{
+display: none;
+}
+nav ul{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav ul:hover{
+    display: inline-block;
+    
+    background-color: aliceblue;
+    color: black;
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+}
+p{
+    text-align: center;
+    font-size: 2.2em;
+    margin: 20px;
+}
