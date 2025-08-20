@@ -2,9 +2,10 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(90deg, #88a2ac, #628d8f);
+height: 100vh;
 }
 header{
     background-color: #000;
@@ -32,4 +33,9 @@ p{
     text-align: center;
     font-size: 1.2em;
     margin: 20px;
+}
+img{
+    display: block;
+    margin:auto;
+    max-width: 320px;
 }
