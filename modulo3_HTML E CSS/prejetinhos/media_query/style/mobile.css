@@ -1,0 +1,16 @@
+@media screen and (max-width: 600px) {
+    body {
+        background: black url("../imagens/back-phone.jpg") no-repeat center center fixed;
+    }
+    #phone {
+        display: block;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    body {
+        background: black url("../imagens/back-tablet.jpg") no-repeat center center fixed;
+    }
+    #tablet {
+        display: block;
+    }
+}

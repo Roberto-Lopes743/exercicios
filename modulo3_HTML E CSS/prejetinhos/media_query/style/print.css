@@ -1,0 +1,10 @@
+#print{
+    display: block;
+}
+body{
+    background: url("../imagens/back-print.jpg") no-repeat center center fixed;
+}
+#pc{display: none;}
+#phone{display: none;}
+#tablet{display: none;}
+#tv{display: none;}

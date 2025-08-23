@@ -1,0 +1,14 @@
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+    body {
+       background: black url("../imagens/back-pc.jpg") no-repeat center center fixed;
+    }   
+    #pc {
+        display: block;
+    }
+}
+@media screen and (min-width: 1281px){
+    body {
+        background: black url("../imagens/back-tv.jpg") no-repeat center center fixed;
+    }
+    #tv{display: block;}
+}
